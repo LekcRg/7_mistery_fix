@@ -14,7 +14,8 @@ def get_roots(a, b, c):
         return root1, root2
 
 
-a = int(input())
-b = int(input())
-c = int(input())
-print(get_roots(a, b, c))
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    print(get_roots(a, b, c))
